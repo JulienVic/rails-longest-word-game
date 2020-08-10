@@ -1,0 +1,26 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+li {
+   color: white;
+   background-color: blue;
+   padding: 20px;
+   box-shadow: black;
+   margin: 10px;
+}
+
+
+.card{
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  font-size: 24px;
+  font-weight: bold;
+  ul{
+    display: flex;
+    justify-content: center;
+    border: 20px;
+    list-style-type: none;
+  }
+}
